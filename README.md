@@ -1,0 +1,1 @@
+[![NPM version](https://img.shields.io/npm/v/fakelang.svg?style=flat)](https://www.npmjs.com/package/fakelang) [![NPM downloads](https://img.shields.io/npm/dm/fakelang.svg?style=flat)](https://npmjs.org/package/fakelang)
