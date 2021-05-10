@@ -93,26 +93,7 @@ const generateNewRandomSyllable = (baseSyllables, totalOccurrences) => {
   }
 };
 
-const longExampleText = `Hong Kong Phoo-ey, num-ber one su-per guy.
- Hong Kong Phoo-ey, quick-er than the hu-man eye. He’s got sty-le, a
- groo-vy sty-le, and a car that just won’t stop. When the go-ing gets
- tough, he’s real-ly rough, with a Hong Kong Phoo-ey chop (Hi-Ya!).
- Hong Kong Phoo-ey, num-ber one su-per guy. Hong Kong Phoo-ey, quick-er
- than the hu-man eye. Hong Kong Phoo-ey, he’s fan-rif-fic! One for all
- and all for one, Mus-ke-hounds are al-ways rea-dy. One for all and all
- for one, help-ing eve-ry-bo-dy. One for all and all for one, it’s a
- pret-ty stor-y. Shar-ing eve-ry-thing with fun, that’s the way to be.
- One for all and all for one, Mus-ke-hounds are al-ways rea-dy. One for
- all and all for one, help-ing eve-ry-bo-dy. One for all and all for one,
- can sound pret-ty cor-ny. If you-’ve got a prob-lem chum, think how it
- could be. Knight Ri-der, a sha-dow-y flight in-to the dan-ger-ous world
- of a man who does not ex-ist. Mi-chael Knight, a young lo-ner on a
- cru-sade to cham-pi-on the cause of the in-no-cent, the help-less in
- a world of crim-in-als who op-er-ate ab-ove the law.`
-
-engish = createLanguageFromExample("Engish", longExampleText);
-console.log(languages)
-console.log(languagesReverse)
-
-textToTranslate = "I love my homies. I love to kiss them to sleep."
-console.log(translate('Engish', textToTranslate))
+module.exports = {
+  createLanguageFromExample,
+  translate
+}
