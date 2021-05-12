@@ -1,22 +1,49 @@
+const fs = require('fs');
+
 const languages = {};
 const languagesReverse = {};
 
 function NameStringException() {
   const error = new Error("Name of language must be string");
   error.code = 1;
-  return error
+  return error;
 }
 
 function ExampleStringException() {
   const error = new Error("Example text for language must be string");
   error.code = 2;
-  return error
+  return error;
 }
 
 function NameAlreadyUsedException() {
   const error = new Error("Name of language must be unique, not previously used");
   error.code = 3;
-  return error
+  return error;
+}
+
+function InvalidPresetException() {
+  const error = new Error("At this time, preset must be 101");
+  error.code = 4;
+  return error;
+}
+
+const createLanguageFromPreset = (languageName, preset=101) => {
+  if (typeof languageName !== 'string') {
+    throw new NameStringException();
+  }
+  if (preset !== 101) {
+    throw new InvalidPresetException();
+  }
+
+  if (preset === 101) {
+    text = fs.readFileSync('./sample-texts/english1.txt', 'utf8', (err, data) => {
+      if (err) {
+        throw new Error(err);
+      }
+    });
+
+    createLanguageFromExample(languageName, text);
+  }
 }
 
 const createLanguageFromExample = (languageName, exampleText) => {
@@ -97,3 +124,10 @@ module.exports = {
   createLanguageFromExample,
   translate
 }
+
+const test = () => {
+  createLanguageFromPreset('engish', 101);
+  console.log(translate('engish', "Hello I love dogs. I really do love dogs."))
+}
+
+test()
