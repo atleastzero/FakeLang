@@ -122,12 +122,6 @@ const generateNewRandomSyllable = (baseSyllables, totalOccurrences) => {
 
 module.exports = {
   createLanguageFromExample,
+  createLanguageFromPreset,
   translate
 }
-
-const test = () => {
-  createLanguageFromPreset('engish', 101);
-  console.log(translate('engish', "Hello I love dogs. I really do love dogs."))
-}
-
-test()
