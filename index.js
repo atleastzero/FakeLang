@@ -75,7 +75,7 @@ const createLanguageFromExample = (languageName, exampleText) => {
     }
   }
 
-  baseSyllables[''] = 0
+  delete baseSyllables['']
 
   languages[languageName] = [baseSyllables, {}];
   languagesReverse[languageName] = {};
@@ -104,7 +104,7 @@ const generateNewRandomWord = (languageName, word) => {
   for (syllable in baseSyllables) {
     totalOccurrences += baseSyllables[syllable];
   }
-  while (translatedWord in languagesReverse[languageName]) {
+  while (translatedWord === "" || translatedWord in languagesReverse[languageName]) {
     translatedWord += generateNewRandomSyllable(baseSyllables, totalOccurrences);
   }
   languages[languageName][1][word] = translatedWord;
