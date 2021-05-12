@@ -75,7 +75,7 @@ const createLanguageFromExample = (languageName, exampleText) => {
     }
   }
 
-  delete baseSyllables['']
+  baseSyllables[''] = 0
 
   languages[languageName] = [baseSyllables, {}];
   languagesReverse[languageName] = {};
