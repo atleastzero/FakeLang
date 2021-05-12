@@ -1,4 +1,5 @@
 const fs = require('fs');
+const path = require('path');
 
 const languages = {};
 const languagesReverse = {};
@@ -36,7 +37,7 @@ const createLanguageFromPreset = (languageName, preset=101) => {
   }
 
   if (preset === 101) {
-    text = fs.readFileSync('./sample-texts/english1.txt', 'utf8', (err, data) => {
+    text = fs.readFileSync(path.join(__dirname, 'node_modules/fakelang/sample-texts/english1.txt'), 'utf8', (err, data) => {
       if (err) {
         throw new Error(err);
       }
