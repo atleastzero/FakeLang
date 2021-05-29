@@ -1,0 +1,238 @@
+{
+  "source": "https://lotr.fandom.com/wiki/Elvish_Word_List",
+  "words": [{
+    "word": "aaya",
+    "syllables": [{
+      "syllable": "aa",
+      "pronunciation": "ī"
+    }, {
+      "syllable": "ya",
+      "pronunciation": "jɛ"
+    }]
+  }, {
+    "word": "aiye",
+    "syllables": [{
+      "syllable": "ai",
+      "pronunciation": "ī"
+    }, {
+      "syllable": "ye",
+      "pronunciation": "jɛ"
+    }]
+  }, {
+    "word": "ada",
+    "syllables": [{
+      "syllable": "a",
+      "pronunciation": "ɑ"
+    }, {
+      "syllable": "da",
+      "pronunciation": "dɑ"
+    }]
+  }, {
+    "word": "adan",
+    "syllables": [{
+      "syllable": "a",
+      "pronunciation": "ɑ"
+    }, {
+      "syllable": "dan",
+      "pronunciation": "dæn"
+    }]
+  }, {
+    "word": "aelin",
+    "syllables": [{
+      "syllable": "a",
+      "pronunciation": "eɪ"
+    }, {
+      "syllable": "e",
+      "pronunciation": "ɛ"
+    }, {
+      "syllable": "lin",
+      "pronunciation": "lɪn"
+    }]
+  }, {
+    "word": "adanedhel",
+    "syllables": [{
+      "syllable": "a",
+      "pronunciation": "ɑ"
+    }, {
+      "syllable": "da",
+      "pronunciation": "dɑ"
+    }, {
+      "syllable": "ne",
+      "pronunciation": "nɛ"
+    }, {
+      "syllable": "dhel",
+      "pronunciation": "ðɛl"
+    }]
+  }, {
+    "word": "aduial",
+    "syllables": [{
+      "syllable": "a",
+      "pronunciation": "ɑ"
+    }, {
+      "syllable": "du",
+      "pronunciation": "du"
+    }, {
+      "syllable": "i",
+      "pronunciation": "ɪ"
+    }, {
+      "syllable": "al",
+      "pronunciation": "ɛl"
+    }]
+  }, {
+    "word": "aglarond",
+    "syllables": [{
+      "syllable": "ag",
+      "pronunciation": "æɡ"
+    }, {
+      "syllable": "la",
+      "pronunciation": "la"
+    }, {
+      "syllable": "rond",
+      "pronunciation": "rɑnd"
+    }]
+  }, {
+    "word": "aha",
+    "syllables": [{
+      "syllable": "a",
+      "pronunciation": "a"
+    }, {
+      "syllable": "ha",
+      "pronunciation": "hɑ"
+    }]
+  }, {
+    "word": "ai",
+    "syllables": [{
+      "syllable": "ai",
+      "pronunciation": "ī"
+    }]
+  }, {
+    "word": "aina",
+    "syllables": [{
+      "syllable": "ai",
+      "pronunciation": "ī"
+    }, {
+      "syllable": "na",
+      "pronunciation": "nɑ"
+    }]
+  }, {
+    "word": "ainu",
+    "syllables": [{
+      "syllable": "ai",
+      "pronunciation": "ī"
+    }, {
+      "syllable": "nu",
+      "pronunciation": "nu"
+    }]
+  }, {
+    "word": "aiglos",
+    "syllables": [{
+      "syllable": "ai",
+      "pronunciation": "ī"
+    }, {
+      "syllable": "glos",
+      "pronunciation": "ɡlos"
+    }]
+  }, {
+    "word": "alda",
+    "syllables": [{
+      "syllable": "al",
+      "pronunciation": "ɑl"
+    }, {
+      "syllable": "da",
+      "pronunciation": "dɑ"
+    }]
+  }, {
+    "word": "aldalómë",
+    "syllables": [{
+      "syllable": "al",
+      "pronunciation": "ɑl"
+    }, {
+      "syllable": "da",
+      "pronunciation": "dɑ"
+    }, {
+      "syllable": "ló",
+      "pronunciation": "lo"
+    }, {
+      "syllable": "më",
+      "pronunciation": "mə"
+    }]
+  }, {
+    "word": "alqua",
+    "syllables": [{
+      "syllable": "al",
+      "pronunciation": "ɑl"
+    }, {
+      "syllable": "qua",
+      "pronunciation": "kwə"
+    }]
+  }, {
+    "word": "amandil",
+    "syllables": [{
+      "syllable": "a",
+      "pronunciation": "ɑ"
+    }, {
+      "syllable": "man",
+      "pronunciation": "mɑn"
+    }, {
+      "syllable": "dil",
+      "pronunciation": "dɪɫ"
+    }]
+  }, {
+    "word": "amarth",
+    "syllables": [{
+      "syllable": "a",
+      "pronunciation": "ɑ"
+    }, {
+      "syllable": "marth",
+      "pronunciation": "mɑɹθ"
+    }]
+  }, {
+    "word": "ambarona",
+    "syllables": [{
+      "syllable": "am",
+      "pronunciation": "æm"
+    }, {
+      "syllable": "bar",
+      "pronunciation": "bɑɹ"
+    }, {
+      "syllable": "o",
+      "pronunciation": "o"
+    }, {
+      "syllable": "na",
+      "pronunciation": "nɑ"
+    }]
+  }, {
+    "word": "amon",
+    "syllables": [{
+      "syllable": "am",
+      "pronunciation": "æm"
+    }, {
+      "syllable": "on",
+      "pronunciation": "on"
+    }]
+  }, {
+    "word": "ampa",
+    "syllables": [{
+      "syllable": "am",
+      "pronunciation": "æm"
+    }, {
+      "syllable": "pa",
+      "pronunciation": "pɑ"
+    }]
+  }, {
+    "word": "amil",
+    "syllables": [{
+      "syllable": "am",
+      "pronunciation": "æm"
+    }, {
+      "syllable": "il",
+      "pronunciation": "ɪl"
+    }]
+  }, {
+    "word": "an",
+    "syllables": [{
+      "syllable": "an",
+      "pronunciation": "æn"
+    }]
+  }]
+}
